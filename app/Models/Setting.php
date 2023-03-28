@@ -9,6 +9,9 @@ class Setting extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'status',	'color',	'style',	'shop_id',
+        'status',	
+        'color',	
+        'style',	
+        'shop_id',
     ];
 }

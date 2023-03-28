@@ -9,7 +9,16 @@ class Goal extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'shop_id',	'type',	'status',	'name',	'gift_count',	'times',	'target_type',	'target',	'condition',	'message'	
+        'shop_id',	
+        'type',	
+        'status',	
+        'name',	
+        'gift_count',	
+        'times',	
+        'target_type',	
+        'target',	
+        'condition',	
+        'message'	
     ];
    
 }

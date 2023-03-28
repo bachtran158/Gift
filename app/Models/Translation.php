@@ -9,6 +9,7 @@ class Translation extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'trans','shop_id'
+        'trans',
+        'shop_id'
     ];
 }
