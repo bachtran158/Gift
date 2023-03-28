@@ -16,5 +16,8 @@ class Gift extends Model
         'product_handel',	
         'product_image'
     ];
-  
+    public function shop()
+    {
+        return $this->belongsTo(Shop::class);
+    }
 }

@@ -16,6 +16,7 @@ class CreateGoalsTable extends Migration
         Schema::create('goals', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('shop_id');
+            $table->foreign('shop_id')->references('id')->on('shops');
             $table->tinyInteger('type');
             $table->tinyInteger('status');
             $table->string('name', 250);
